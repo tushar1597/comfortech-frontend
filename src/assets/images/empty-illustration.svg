@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="347px" height="138px" viewBox="0 0 347 138" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group Copy 8</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Create-combo" transform="translate(-14.000000, -409.000000)">
+            <g id="Group-9" transform="translate(15.000000, 380.000000)">
+                <g id="Group-Copy-8" transform="translate(0.000000, 30.000000)">
+                    <path d="M6,0 L339,0 C342.313708,-6.08718376e-16 345,2.6862915 345,6 L345,130 C345,133.313708 342.313708,136 339,136 L6,136 C2.6862915,136 4.05812251e-16,133.313708 0,130 L0,6 C-4.05812251e-16,2.6862915 2.6862915,6.08718376e-16 6,0 Z" id="Rectangle" stroke="#CECECE" stroke-width="0.8" stroke-dasharray="8,6"></path>
+                    <g id="Btn/text-reg/Primary-inactive-Copy" transform="translate(12.000000, 92.000000)">
+                        <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="321" height="32" rx="4"></rect>
+                        <text id="Tap-to-add-Items" font-family="NotoSansSC-Medium, Noto Sans SC" font-size="12" font-weight="400" fill="#979797">
+                            <tspan x="113.016" y="21">Tap to add Items</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-7" transform="translate(75.000000, 24.000000)">
+                        <polygon id="Rectangle" stroke="#979797" stroke-width="2" fill-opacity="0" fill="#FFFFFF" opacity="0.248046875" stroke-linejoin="round" points="30 10 56 10 58 52 47.551653 52 43 27 37.965809 52 28 52"></polygon>
+                        <polygon id="Rectangle" stroke="#979797" stroke-width="2" fill-opacity="0" fill="#FFFFFF" opacity="0.248046875" stroke-linejoin="round" points="9.9475983e-13 4 9 1.27897692e-13 32 0 41 4 41 18.4387785 35 16.4387785 35 36 6 36 6 16.4387785 9.9475983e-13 18.4387785"></polygon>
+                        <polygon id="Rectangle" stroke="#979797" stroke-width="2" fill-opacity="0" fill="#FFFFFF" opacity="0.248046875" stroke-linejoin="round" points="168 10 194 10 196 52 185.551653 52 181 27 175.965809 52 166 52"></polygon>
+                        <polygon id="Rectangle" stroke="#979797" stroke-width="2" fill-opacity="0" fill="#FFFFFF" opacity="0.248046875" stroke-linejoin="round" points="138 4 147 1.27897692e-13 170 0 179 4 179 18.4387785 173 16.4387785 173 36 144 36 144 16.4387785 138 18.4387785"></polygon>
+                        <path d="M100,6 C100.552285,6 101,6.44771525 101,7 L101,18.999 L113,19 C113.552285,19 114,19.4477153 114,20 L114,24 C114,24.5522847 113.552285,25 113,25 L101,25 L101,37 C101,37.5522847 100.552285,38 100,38 L96,38 C95.4477153,38 95,37.5522847 95,37 L95,25 L83,25 C82.4477153,25 82,24.5522847 82,24 L82,20 C82,19.4477153 82.4477153,19 83,19 L95,19 L95,7 C95,6.44771525 95.4477153,6 96,6 L100,6 Z" id="Combined-Shape" fill-opacity="0.5" fill="#D8D8D8"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

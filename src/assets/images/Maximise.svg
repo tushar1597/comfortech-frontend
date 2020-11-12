@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>7A51AB65-0042-458F-B983-1597D82DD66A</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.027451 0 0 0 0 0.376471 0 0 0 0 0.831373 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Product/Preview" transform="translate(-1218.000000, -1137.000000)">
+            <g id="Group-5" transform="translate(896.000000, 988.000000)">
+                <g id="Group-11" transform="translate(0.000000, 137.000000)">
+                    <g id="Group-18" transform="translate(318.000000, 6.000000)">
+                        <g id="Icons/Maximise" transform="translate(0.000000, 2.000000)" filter="url(#filter-1)">
+                            <g>
+                                <path d="M4.7,9 C5.05438271,9 5.34725823,9.26334362 5.39360983,9.60501415 L5.4,9.7 L5.4,14.6 L10.3,14.6 C10.6543827,14.6 10.9472582,14.8633436 10.9936098,15.2050141 L11,15.3 C11,15.6543827 10.7366564,15.9472582 10.3949859,15.9936098 L10.3,16 L4.7,16 C4.34561729,16 4.05274177,15.7366564 4.00639017,15.3949859 L4,15.3 L4,9.7 C4,9.31340068 4.31340068,9 4.7,9 Z M15.3,4 C15.6543827,4 15.9472582,4.26334362 15.9936098,4.60501415 L16,4.7 L16,10.3 C16,10.6865993 15.6865993,11 15.3,11 C14.9456173,11 14.6527418,10.7366564 14.6063902,10.3949859 L14.6,10.3 L14.6,5.4 L9.7,5.4 C9.34561729,5.4 9.05274177,5.13665638 9.00639017,4.79498585 L9,4.7 C9,4.34561729 9.26334362,4.05274177 9.60501415,4.00639017 L9.7,4 L15.3,4 Z" id="Combined-Shape" fill="#ED695F" fill-rule="nonzero"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
