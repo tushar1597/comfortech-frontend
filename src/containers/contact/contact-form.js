@@ -2,7 +2,8 @@ import React, { Component, Fragment } from "react";
 // import {  } from '../constants/constants';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router';
-// import '../styles/contact.css';
+import { Link } from "react-router-dom";
+import '../styles/contact.css';
 import { submitContactFormAPI } from '../../actions/contact.action';
 
 class ContactForm extends Component {
@@ -117,6 +118,8 @@ class ContactForm extends Component {
         if(isOk){
             console.log(9);
             this.props.submitContactFormAPI(this.state.f_nm,this.state.m_nm,this.state.l_nm,this.state.eml,this.state.p_no,this.state.desc);
+        }else{
+            alert("Please fill all Details correctly");
         }
         
     }
@@ -171,7 +174,7 @@ class ContactForm extends Component {
     render() {
         return(
             <div className="ctf-container">
-                <p>contact form</p>
+                <p className="fm-heading">contact form</p>
                 <form className="ctf-form">
                     <p className="fm-lbl">First Name</p>
                     <input className="fm-inp" value={this.state.f_nm} onChange={this.setFirstName} type="text"/>
@@ -185,7 +188,10 @@ class ContactForm extends Component {
                     <input  className="fm-inp"  value={this.state.p_no} onChange={this.setPhoneNumber} type="text"/>
                     <p className="fm-lbl">Description</p>
                     <input  className="fm-inp" value={this.state.desc} onChange={this.setDescription}  type="text"/>
+                    <div className="fm-sec">
                     <button className="fm-btn" onClick={this.submitForm}>Submit</button>
+                    <Link className="fm-link" to="/all-contacts">View Contacts</Link>
+                    </div>
                 </form>
             </div>
         );

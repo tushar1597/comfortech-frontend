@@ -22,14 +22,23 @@ export const submitContactFormAPI = (f_nm,m_nm,l_nm,eml,p_no,desc) => dispatch =
 
 }
 
-export const deleteContactAPI = (ct_id) => dispatch => {
+export const deleteContactAPI = (ct_id,all_cts) => dispatch => {
     var req_data = {
         ct_id: ct_id,
     }
 
     axios.post(ROUTES.DELETE_CONTACT,req_data)
       .then(res => {
-        alert("Contact deleted");
+          let new_cts = [];
+          for(let i=0; i<all_cts.length; i++){
+            if(all_cts[i]._id != ct_id){
+              new_cts.push(all_cts[i]);
+            }
+          }
+          let action = {};
+          action.value = new_cts;
+          action.type = CONTACT.GET_ALL_CONTACTS;
+          dispatch(action);
       })
       .catch(err => {
           console.log(err);

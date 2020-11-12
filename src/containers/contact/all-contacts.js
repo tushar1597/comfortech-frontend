@@ -1,7 +1,8 @@
 import React, { Component, Fragment } from "react";
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router';
-// import '../styles/contact.css';
+import { Link } from "react-router-dom";
+import '../styles/contact.css';
 import { getAllContactsAPI, deleteContactAPI } from '../../actions/contact.action';
 import YesNoModal from "../../components/modal/yes-no-modal";
 
@@ -20,7 +21,7 @@ class AllContacts extends Component {
         this.props.getAllContactsAPI();
     }
     delete = () =>{
-        this.props.deleteContactAPI(this.state.ct_rcd);
+        this.props.deleteContactAPI(this.state.ct_rcd,this.props.all_cts);
         this.closeModal();
     }
     closeModal = () =>{
@@ -40,6 +41,8 @@ class AllContacts extends Component {
     render() {
         return(
             <div className="all-ct-container">
+                <Link to="/" className="ad-ctc-link">Add Contact</Link>
+                <p className="ac-heading">All Contacts</p>
                 <table>
                     <thead>
                         <tr>
